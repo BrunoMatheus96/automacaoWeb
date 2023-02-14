@@ -18,7 +18,8 @@ exports.config = {
       waitForTimeout: 5000,
       desiredCapabilities: {
         chromeOptions: {
-          
+          //utilizado para rodar os testes sem precisar abrir o navegador
+          //args: ["--headless"]
         }
       }
     }
