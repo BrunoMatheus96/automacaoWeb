@@ -1,73 +1,61 @@
-20:43:47.302 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
-20:43:47.508 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
-2023-02-14 20:43:47.594:INFO::main: Logging initialized @1070ms to org.seleniumhq.jetty9.util.log.StdErrLog
-20:43:48.021 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
-20:43:48.742 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
-20:43:49.073 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+13:35:18.773 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+13:35:18.922 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2023-02-15 13:35:19.024:INFO::main: Logging initialized @754ms to org.seleniumhq.jetty9.util.log.StdErrLog
+13:35:19.511 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+13:35:20.088 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+13:35:20.393 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
-    "args": [
-      "--headless"
-    ]
   }
 }
-20:43:49.075 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 40188
+13:35:20.394 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 18085
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1676418232.850][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-20:43:53.057 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-20:43:53.105 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session bf8365989417fa161a8e342d265b40b7 (org.openqa.selenium.chrome.ChromeDriverService)
-20:44:06.317 INFO [ActiveSessions$1.onStop] - Removing session bf8365989417fa161a8e342d265b40b7 (org.openqa.selenium.chrome.ChromeDriverService)
-20:44:06.972 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1676478924.121][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+13:35:24.710 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+13:35:24.793 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 06912f4725a8ae21c159954444f798b8 (org.openqa.selenium.chrome.ChromeDriverService)
+13:35:36.239 INFO [ActiveSessions$1.onStop] - Removing session 06912f4725a8ae21c159954444f798b8 (org.openqa.selenium.chrome.ChromeDriverService)
+13:35:36.940 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
-    "args": [
-      "--headless"
-    ]
   }
 }
-20:44:06.973 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 13980
+13:35:36.941 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 37342
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1676418248.270][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-20:44:08.292 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-20:44:08.295 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8d326ee8446a5850f62c00c3e397765e (org.openqa.selenium.chrome.ChromeDriverService)
-20:44:19.673 INFO [ActiveSessions$1.onStop] - Removing session 8d326ee8446a5850f62c00c3e397765e (org.openqa.selenium.chrome.ChromeDriverService)
-20:44:20.334 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1676478938.722][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+13:35:39.200 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+13:35:39.205 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 794735b63c6cfa0771ffdd18fc751f76 (org.openqa.selenium.chrome.ChromeDriverService)
+13:35:48.293 INFO [ActiveSessions$1.onStop] - Removing session 794735b63c6cfa0771ffdd18fc751f76 (org.openqa.selenium.chrome.ChromeDriverService)
+13:35:48.992 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
-    "args": [
-      "--headless"
-    ]
   }
 }
-20:44:20.334 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 9842
+13:35:48.992 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 45499
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1676418261.636][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-20:44:21.664 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-20:44:21.667 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 249c40a31bff92cd051b5c1f1d60dcb4 (org.openqa.selenium.chrome.ChromeDriverService)
-20:44:31.720 INFO [ActiveSessions$1.onStop] - Removing session 249c40a31bff92cd051b5c1f1d60dcb4 (org.openqa.selenium.chrome.ChromeDriverService)
-20:44:32.518 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[1676478950.829][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+13:35:51.271 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+13:35:51.274 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f3daba1d5cccbd3da320a1903092058c (org.openqa.selenium.chrome.ChromeDriverService)
+13:36:00.956 INFO [ActiveSessions$1.onStop] - Removing session f3daba1d5cccbd3da320a1903092058c (org.openqa.selenium.chrome.ChromeDriverService)
+13:36:01.632 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "chrome",
   "goog:chromeOptions": {
-    "args": [
-      "--headless"
-    ]
   }
 }
-20:44:32.518 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 19362
+13:36:01.633 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 15284
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1676418273.822][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-20:44:33.852 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-20:44:33.855 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 90b37e7df3686acca6c1ca09a1975b1f (org.openqa.selenium.chrome.ChromeDriverService)
-20:44:46.656 INFO [ActiveSessions$1.onStop] - Removing session 90b37e7df3686acca6c1ca09a1975b1f (org.openqa.selenium.chrome.ChromeDriverService)
+[1676478963.560][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+13:36:03.992 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+13:36:03.995 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f8fe07a825e6b4a97614bf1bcb78b28c (org.openqa.selenium.chrome.ChromeDriverService)
+13:36:12.703 INFO [ActiveSessions$1.onStop] - Removing session f8fe07a825e6b4a97614bf1bcb78b28c (org.openqa.selenium.chrome.ChromeDriverService)

@@ -1,4 +1,7 @@
-const { setHeadlessWhen, setCommonPlugins } = require('@codeceptjs/configure');
+const {
+  setHeadlessWhen,
+  setCommonPlugins
+} = require('@codeceptjs/configure');
 // turn on headless mode when running with HEADLESS=true environment variable
 // export HEADLESS=true && npx codeceptjs run
 setHeadlessWhen(process.env.HEADLESS);
@@ -9,7 +12,7 @@ setCommonPlugins();
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
   name: 'Automação Web',
-  tests: './*_test.js',
+  tests: './steps/*_test.js',
   output: './output',
   helpers: {
     WebDriver: {
@@ -25,7 +28,9 @@ exports.config = {
     }
   },
   include: {
-    I: './steps_file.js'
+    "I": "./steps_file.js",
+    "home_page": "./pages/home_page.js",
+    "loginPage": "./pages/login.js"
   },
   bootstrap: null,
   teardown: null,
