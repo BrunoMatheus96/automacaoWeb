@@ -46,6 +46,30 @@ exports.config = {
     wdio: {
       enabled: true,
       services: ['selenium-standalone']
+    },
+    autoLogin: {
+      enabled: true,
+      saveToFile: true,
+      inject: 'login',
+      users: {
+        admin: {
+          // loginAdmin function is defined in `steps_file.js`
+          login: (I) => {
+            I.amOnPage('/');
+            I.click(`Login`)
+            I.waitForElemnt('#user', 10)
+            I.fillField('#user', 'brunolechon2008@gmail.com')
+            I.waitForElemnt('#password', 10)
+            I.fillField('#password', secret('123456'))
+            I.click('#btnLogin')
+          },
+          // if we see `Admin` on page, we assume we are logged in
+          check: (I) => {
+            I.amOnPage('/');
+            I.see('Login realizado');
+          }
+        }
+      }
     }
   }
 }
