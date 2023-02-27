@@ -17,11 +17,11 @@ module.exports = {
 
   },
 
-  subimitCreatNewAccount(){
-    I.fillField('#user', 'Bruno Matheus Stefano Leite')
+  subimitCreatNewAccount(email){
+    I.fillField(this.fields.emailAddressRegisterField, email)
     I.fillField('#email', 'brunolechon2008@gmail.com')
     I.fillField('#password', secret('123456'))
-    I.click('#btnRegister')
+    I.click(this.button.createAccountButton)
     I.see('Cadastro realizado!')
   }
 

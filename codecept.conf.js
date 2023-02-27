@@ -30,7 +30,8 @@ exports.config = {
   include: {
     "I": "./steps_file.js",
     "home_page": "./pages/home_page.js",
-    "loginPage": "./pages/login.js"
+    "loginPage": "./pages/login.js",
+    "create_user": "./pages/create_user.js"
   },
   bootstrap: null,
   teardown: null,

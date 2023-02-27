@@ -1,4 +1,5 @@
 var validacao = require('assert')
+
 Feature('login');
 
 Scenario('test 1', ({ I }) => {

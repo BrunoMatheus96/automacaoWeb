@@ -7,7 +7,7 @@ module.exports = {
   },
   button: {
 
-    login: "Login"
+    login: 'Login'
 
   },
 
