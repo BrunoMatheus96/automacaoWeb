@@ -37,11 +37,21 @@ exports.config = {
   teardown: null,
   mocha: {},
   plugins: {
+    mocha: {
+      reporterOptions: {
+      }
+    },
+    stepByStepReport:{
+      enabled:false,
+      deleteSuccessful: false,
+      fullPageScreenshots: true,
+      sreenshotsForallureReport: true
+    },
     retryFailedStep: {
       enabled: true
     },
     screenshotOnFail: {
-      enabled: true
+      enabled: false
     },
     wdio: {
       enabled: true,
